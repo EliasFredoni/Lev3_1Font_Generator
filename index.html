@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev3_1</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,500&family=Open+Sans&family=Roboto:wght@300;400;500&family=Yusei+Magic&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <h2>Font Generator</h2>
+    <form action="" onsubmit="return false">
+        <input type="range" min="0" max="100" onchange="changetext()" id="size">
+        <select name="" id="fonts" onchange="changetext()">
+            <option value="Bodoni Moda">Bodoni Moda</option>
+            <option value="Open Sans">Open Sans</option>
+            <option value="Yusei Magic">Yusei Magic</option>
+            <option value="Roboto">Roboto</option>
+        </select>
+        <input type="text" id="inputText" onchange="changetext()">
+    </form>
+    <p id="result"></p>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
